@@ -1,0 +1,22 @@
+{
+    "name" : "gabriel-binotti/active-record",
+    "description" : "Library to use active record in PHP",
+    "type": "library",
+    "license" : "GPL-3.0-or-later",
+    "authors" : [
+        {
+            "name" : "Gabriel da Silva Binotti",
+            "email": "gabrielbinotti.dev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GabrielBinottiActiveRecord\\" : "appActiveRecord"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "PHP" : ">=7.0"
+    }
+
+}
